@@ -1,0 +1,64 @@
+# General Verbs
+<http://www.homermultitext.org/cts/rdf/fullUri>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates the full URI value for a CTS namespace with a namespace-level CTS-URN. URI <--> CTS URN" .
+<http://www.homermultitext.org/cite/rdf/abbreviatedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a CITE or CTS Namespace URI to an abbreviation. URI <--> String." .
+
+# CTS Verbs
+<http://www.homermultitext.org/cts/rdf/contains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates two levels of a passage hierarchy. CTS-URN <--> CTS-URN." .
+<http://www.homermultitext.org/cts/rdf/containedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates two levels of a passage hierarchy. CTS-URN <--> CTS-URN." .
+
+<http://www.homermultitext.org/cts/rdf/possesses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates two levels of the bibliographic hierarchy. CTS-URN <--> CTS-URN." .
+<http://www.homermultitext.org/cts/rdf/belongsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates two levels of the bibliographic hierarchy. CTS-URN <--> CTS-URN." .
+
+<http://www.homermultitext.org/cts/rdf/hasPassage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a Version or Exemplar to a passage leaf-node. CTS-URN <--> CTS-URN." .
+<http://www.homermultitext.org/cts/rdf/isPassageOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a Version or Exemplar to a passage leaf-node. CTS-URN <--> CTS-URN." .
+
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "The title of a TextGroup or Work. CTS-URN <--> String." .
+<http://www.homermultitext.org/cts/rdf/abbreviatedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates an XML namespace URI to an abbreviation. URI <--> String" .
+
+<http://www.homermultitext.org/cts/rdf/lang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "The language of a Work (and therefore of any Edition). CTS-URN <--> String." .
+<http://www.homermultitext.org/cts/rdf/citationDepth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "The depth of the passage hierarchy. CTS-URN <--> Integer." .
+<http://www.homermultitext.org/cts/rdf/hasSequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "The sequence number of a passage leaf-node. CTS-URN <--> Integer." .
+<http://www.homermultitext.org/cts/rdf/hasTextContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "The textual content of a passage leaf-node; may be mixed content. CTS-URN <--> String." .
+<http://www.homermultitext.org/cts/rdf/next> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "The following leaf-node, by document order. CTS-URN <--> CTS-URN." .
+<http://www.homermultitext.org/cts/rdf/prev> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "The preceding leaf-node, by document order. CTS-URN <--> CTS-URN." .
+
+<http://www.homermultitext.org/cts/rdf/translationLang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "The language of a Translation. CTS-URN <--> String." .
+<http://www.homermultitext.org/cts/rdf/xmlns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "The XML Namespace for the XML fragment in a passage leaf-node's text-content. CTS-URN <--> String" .
+<http://www.homermultitext.org/hmt/rdf/xmlOpen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Specific to the HMT implementation. XML content necessary to capture the full citation hierarchy for a leaf-node. CTS-URN <--> String." .
+<http://www.homermultitext.org/hmt/rdf/xpTemplate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Specific to the HMT implementation. XML content necessary to add values at the correct points of the full citation hierarchy for a leaf-node. CTS-URN <--> String." .
+
+<http://www.homermultitext.org/cts/rdf/hasSubref> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a CTS URN with a leaf-node citation to a CTS URN with a subrefrence. CTS-URN <--> CTS-URN." .
+<http://www.homermultitext.org/cts/rdf/isSubrefOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a CTS URN with a subreference to a CTS URN with a leaf-node citation (an no subreference). CTS-URN <--> CTS-URN." .
+
+# CITE Collection Verbs
+
+<http://purl.org/ontology/olo/core#item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Identifies sequence for an item in an ordered CITE Collection. CITE-URN <--> Integer" .
+<http://www.homermultitext.org/cite/rdf/belongsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates an object in a CITE Collection to the Collection. CITE-URN <--> CITE-URN." .
+<http://www.homermultitext.org/cite/rdf/canonicalId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Identifies the property of a CITE Collection Object whose values is that object's canonical identifier. CITE-URN <--> String (namespace:property-name)." .
+<http://www.homermultitext.org/cite/rdf/collProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Identifies a property of objects in a CITE Collection. CITE-URN <--> String (namespace:property-name)." .
+<http://www.homermultitext.org/cite/rdf/ordered> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Boolean marking a CITE Collection as ordered (true) or unordered (false). CITE-URN <--> Boolean" .
+<http://www.homermultitext.org/cite/rdf/orderedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Identifies the property of a CITE Collection Object whose value contains the objects sequence number. CITE-URN <--> String (namespace:property-name)." .
+<http://www.homermultitext.org/cite/rdf/possessedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates an object in a CITE Collection to the Collection of which it is a member. CITE-URN <--> CITE-URN." .
+<http://www.homermultitext.org/cite/rdf/possesses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a CITE Collection to a member of that CITE Collection. CITE-URN <--> CITE-URN." .
+<http://www.homermultitext.org/cite/rdf/propLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Assigns a human-readable lable to a property in a CITE Collection. Namespace:property-name <--> String." .
+<http://www.homermultitext.org/cite/rdf/propType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Identifies the data type for a property in a CITE Collection. Namespace:property-name <--> String." .
+
+# ORCA Verbs
+
+
+<http://www.homermultitext.org/orca/rdf/exemplifiedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a version-level CTS-URN with a leaf-node CTS-URN in an analytical exemplar. CTS-URN <--> CTS-URN." .
+<http://www.homermultitext.org/orca/rdf/exemplifies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a lead-node CTS-URN in an analytical exemplar to a version-level CTS-URN. CTS-URN <--> CTS-URN." .
+<http://www.homermultitext.org/orca/rdf/analyzes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates an ORCA-Relation-URN to a CTS-URN. CITE-URN <--> CTS-URN." .
+<http://www.homermultitext.org/orca/rdf/analyzedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a CTS-URN to an ORCA-Relation-URN. CTS-URN <--> CITE-URN." .
+<http://www.homermultitext.org/orca/rdf/hasAnalysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates an ORCA-Relation-URN to a CITE Collection Object URN. CITE-URN <--> CITE-URN." .
+<http://www.homermultitext.org/orca/rdf/analysisFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a CITE Collection Object URN to an ORCA-Relation-URN. CITE-URN <--> CITE-URN." .
+<http://www.homermultitext.org/orca/rdf/textDeformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates an ORCA-Relation-URN to a text string. CITE-URN <--> String." .
+
+# Digital Scholarly Editions Verbs
+
+<http://www.homermultitext.org/hmt/rdf/commentsOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "HMT-specific. Relates a scholion to the passage of text it comments on. Deprecated in favor of ORCA relations. CTS-URN <--> CTS-URN." .
+<http://www.homermultitext.org/hmt/rdf/commentedOnBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "HMT-specific. Relates a passage of text to a scholion commenting on it. Deprecated in favor of ORCA relations. CTS-URN <--> CTS-URN." .
+<http://www.homermultitext.org/dse/rdf/appearsOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a text or data URN to a physical object. CTS/CITE-URN <--> CITE-URN." . 
+<http://www.homermultitext.org/dse/rdf/hasOnIt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a text-bearing object to text or data. CITE-URN <--> CTS/CITE-URN." .
+<http://www.homermultitext.org/dse/rdf/illustratedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates text or data to a digital image. CTS/CITE-URN <--> CITE-URN." .
+<http://www.homermultitext.org/dse/rdf/illustrates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a digital image to text or data. CITE-URN <--> CTS/CITE-URN" .
