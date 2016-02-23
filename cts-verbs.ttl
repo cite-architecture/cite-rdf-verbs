@@ -16,7 +16,6 @@
 <http://www.homermultitext.org/cts/rdf/isPassageOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a Version or Exemplar to a passage leaf-node. CTS-URN <--> CTS-URN." .
 
 <http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "The title of a TextGroup or Work. CTS-URN <--> String." .
-<http://www.homermultitext.org/cts/rdf/abbreviatedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates an XML namespace URI to an abbreviation. URI <--> String" .
 
 <http://www.homermultitext.org/cts/rdf/lang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "The language of a Work (and therefore of any Edition). CTS-URN <--> String." .
 <http://www.homermultitext.org/cts/rdf/citationDepth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "The depth of the passage hierarchy. CTS-URN <--> Integer." .
@@ -26,7 +25,10 @@
 <http://www.homermultitext.org/cts/rdf/prev> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "The preceding leaf-node, by document order. CTS-URN <--> CTS-URN." .
 
 <http://www.homermultitext.org/cts/rdf/translationLang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "The language of a Translation. CTS-URN <--> String." .
-<http://www.homermultitext.org/cts/rdf/xmlns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "The XML Namespace for the XML fragment in a passage leaf-node's text-content. CTS-URN <--> String" .
+
+<http://www.homermultitext.org/cts/rdf/xmlns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "The XML Namespace for the XML fragment in a passage leaf-node's text-content. CTS-URN <--> URI" .
+<http://www.homermultitext.org/cts/rdf/xmlnsabbr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "The abbreviation for an XML Namespace on the XML fragment in a passage leaf-node's text-content. CTS-URN <--> String" .
+
 <http://www.homermultitext.org/hmt/rdf/xmlOpen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Specific to the HMT implementation. XML content necessary to capture the full citation hierarchy for a leaf-node. CTS-URN <--> String." .
 <http://www.homermultitext.org/hmt/rdf/xpTemplate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Specific to the HMT implementation. XML content necessary to add values at the correct points of the full citation hierarchy for a leaf-node. CTS-URN <--> String." .
 
