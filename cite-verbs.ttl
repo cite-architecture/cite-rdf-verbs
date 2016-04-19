@@ -59,9 +59,12 @@
 
 # Digital Scholarly Editions Verbs
 
-<http://www.homermultitext.org/hmt/rdf/commentsOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "HMT-specific. Relates a scholion to the passage of text it comments on. Deprecated in favor of ORCA relations. CTS-URN <--> CTS-URN." .
-<http://www.homermultitext.org/hmt/rdf/commentedOnBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "HMT-specific. Relates a passage of text to a scholion commenting on it. Deprecated in favor of ORCA relations. CTS-URN <--> CTS-URN." .
 <http://www.homermultitext.org/dse/rdf/appearsOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a text or data URN to a physical object. CTS/CITE-URN <--> CITE-URN." . 
 <http://www.homermultitext.org/dse/rdf/hasOnIt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a text-bearing object to text or data. CITE-URN <--> CTS/CITE-URN." .
 <http://www.homermultitext.org/dse/rdf/illustratedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates text or data to a digital image. CTS/CITE-URN <--> CITE-URN." .
 <http://www.homermultitext.org/dse/rdf/illustrates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a digital image to text or data. CITE-URN <--> CTS/CITE-URN" .
+
+
+# HMT-specific verbs
+<http://www.homermultitext.org/hmt/rdf/commentsOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "HMT-specific. Relates a scholion to the passage of text it comments on. Deprecated in favor of ORCA relations. CTS-URN <--> CTS-URN." .
+<http://www.homermultitext.org/hmt/rdf/commentedOnBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "HMT-specific. Relates a passage of text to a scholion commenting on it. Deprecated in favor of ORCA relations. CTS-URN <--> CTS-URN." .
