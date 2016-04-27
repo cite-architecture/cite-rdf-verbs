@@ -46,8 +46,11 @@
 <http://www.homermultitext.org/cite/rdf/propLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Assigns a human-readable lable to a property in a CITE Collection. Namespace:property-name <--> String." .
 <http://www.homermultitext.org/cite/rdf/propType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Identifies the data type for a property in a CITE Collection. Namespace:property-name <--> String." .
 
-# ORCA Verbs
+<http://www.homermultitext.org/cite/rdf/hasVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a CITE Collection Object to a versioned URN. CITE-URN <--> CITE-URN.versionId." .
+<http://www.homermultitext.org/cite/rdf/isVersionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a versioned URN to a CITE Collection Object. CITE-URN.versionId <--> CITE-URN." .
 
+
+# ORCA Verbs
 
 <http://www.homermultitext.org/orca/rdf/exemplifiedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a version-level CTS-URN with a leaf-node CTS-URN in an analytical exemplar. CTS-URN <--> CTS-URN." .
 <http://www.homermultitext.org/orca/rdf/exemplifies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a lead-node CTS-URN in an analytical exemplar to a version-level CTS-URN. CTS-URN <--> CTS-URN." .
