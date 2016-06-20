@@ -36,6 +36,9 @@
 # CITE Collection Verbs
 
 <http://purl.org/ontology/olo/core#item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Identifies sequence for an item in an ordered CITE Collection. CITE-URN <--> Integer" .
+<http://purl.org/ontology/olo/core#previous> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Identifies the previous URN in an ordered CITE Collection. CITE-URN <--> CITE-URN" .
+<http://purl.org/ontology/olo/core#next> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Identifies the next URN in an ordered CITE Collection. CITE-URN <--> CITE-URN" .
+
 <http://www.homermultitext.org/cite/rdf/belongsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates an object in a CITE Collection to the Collection. CITE-URN <--> CITE-URN." .
 <http://www.homermultitext.org/cite/rdf/canonicalId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Identifies the property of a CITE Collection Object whose values is that object's canonical identifier. CITE-URN <--> String (namespace:property-name)." .
 <http://www.homermultitext.org/cite/rdf/collProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Identifies a property of objects in a CITE Collection. CITE-URN <--> String (namespace:property-name)." .
