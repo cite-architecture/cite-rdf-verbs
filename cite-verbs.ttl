@@ -51,6 +51,8 @@
 
 <http://www.homermultitext.org/cite/rdf/hasVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a CITE Collection Object to a versioned URN. CITE-URN <--> CITE-URN.versionId." .
 <http://www.homermultitext.org/cite/rdf/isVersionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a versioned URN to a CITE Collection Object. CITE-URN.versionId <--> CITE-URN." .
+<http://www.homermultitext.org/cite/rdf/extendedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a CITE collection to a CITE extension. CITE-URN <--> CITE-Extension." .
+<http://www.homermultitext.org/cite/rdf/extends> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a CITE Extension to a CITE collection. CITE-Extension <--> CITE-URN." .
 
 
 # ORCA Verbs
