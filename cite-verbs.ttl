@@ -39,6 +39,10 @@
 <http://purl.org/ontology/olo/core#previous> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Identifies the previous URN in an ordered CITE Collection. CITE-URN <--> CITE-URN" .
 <http://purl.org/ontology/olo/core#next> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Identifies the next URN in an ordered CITE Collection. CITE-URN <--> CITE-URN" .
 
+<http://www.homermultitext.org/cite/rdf/idPropName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Identifies the name of a property in a CITE Collection whose value is the canonical ID of an object in that collection. CITE-URN <--> STRING." .
+<http://www.homermultitext.org/cite/rdf/labelPropName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Identifies the name of a property in a CITE Collection whose value serves as the label for objects in that collection. CITE-URN <--> STRING." .
+<http://www.homermultitext.org/cite/rdf/labelPropName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Identifies the name of a property in an ordered CITE Collection whose value (a NUM) identifies the sequence of objects in that collection. CITE-URN <--> STRING." .
+
 <http://www.homermultitext.org/cite/rdf/belongsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates an object in a CITE Collection to the Collection. CITE-URN <--> CITE-URN." .
 <http://www.homermultitext.org/cite/rdf/canonicalId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Identifies the property of a CITE Collection Object whose values is that object's canonical identifier. CITE-URN <--> String (namespace:property-name)." .
 <http://www.homermultitext.org/cite/rdf/collProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Identifies a property of objects in a CITE Collection. CITE-URN <--> String (namespace:property-name)." .
@@ -67,7 +71,7 @@
 
 # Digital Scholarly Editions Verbs
 
-<http://www.homermultitext.org/dse/rdf/appearsOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a text or data URN to a physical object. CTS/CITE-URN <--> CITE-URN." . 
+<http://www.homermultitext.org/dse/rdf/appearsOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a text or data URN to a physical object. CTS/CITE-URN <--> CITE-URN." .
 <http://www.homermultitext.org/dse/rdf/hasOnIt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a text-bearing object to text or data. CITE-URN <--> CTS/CITE-URN." .
 <http://www.homermultitext.org/dse/rdf/illustratedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates text or data to a digital image. CTS/CITE-URN <--> CITE-URN." .
 <http://www.homermultitext.org/dse/rdf/illustrates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a digital image to text or data. CITE-URN <--> CTS/CITE-URN" .
