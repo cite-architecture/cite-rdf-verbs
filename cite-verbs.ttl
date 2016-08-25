@@ -41,7 +41,7 @@
 
 <http://www.homermultitext.org/cite/rdf/idPropName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Identifies the name of a property in a CITE Collection whose value is the canonical ID of an object in that collection. CITE-URN <--> STRING." .
 <http://www.homermultitext.org/cite/rdf/labelPropName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Identifies the name of a property in a CITE Collection whose value serves as the label for objects in that collection. CITE-URN <--> STRING." .
-<http://www.homermultitext.org/cite/rdf/labelPropName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Identifies the name of a property in an ordered CITE Collection whose value (a NUM) identifies the sequence of objects in that collection. CITE-URN <--> STRING." .
+<http://www.homermultitext.org/cite/rdf/orderingPropName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Identifies the name of a property in an ordered CITE Collection whose value (a NUM) identifies the sequence of objects in that collection. CITE-URN <--> STRING." .
 
 <http://www.homermultitext.org/cite/rdf/belongsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates an object in a CITE Collection to the Collection. CITE-URN <--> CITE-URN." .
 <http://www.homermultitext.org/cite/rdf/canonicalId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Identifies the property of a CITE Collection Object whose values is that object's canonical identifier. CITE-URN <--> String (namespace:property-name)." .
