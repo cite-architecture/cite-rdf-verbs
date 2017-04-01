@@ -61,6 +61,8 @@
 <http://www.homermultitext.org/cite/rdf/extendedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a CITE collection to a CITE extension. CITE-URN <--> CITE-Extension." .
 <http://www.homermultitext.org/cite/rdf/extends> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a CITE Extension to a CITE collection. CITE-Extension <--> CITE-URN." .
 
+<http://www.homermultitext.org/cite/rdf/hasSubref> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates an object-level CITE URN with an object-level URN with a subrefrence. CITE-URN <--> CITE-URN." .
+<http://www.homermultitext.org/cite/rdf/isSubrefOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Relates a CITE URN with a subreference to an object-level CITE URN (with no subreference). CITE-URN <--> CITE-URN." .
 
 # ORCA Verbs
 
@@ -89,4 +91,3 @@
 <http://www.homermultitext.org/hmt/rdf/path> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "HMT-CITE Image Extension. Identifies a file-path on a server where binary image data for a CITE Image Collection may be found. CITE-URN <--> String." .
 <http://www.homermultitext.org/hmt/rdf/imageCaptionProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "HMT-CITE Image Extension. Identifies a CITE Property name that holds caption data for an object in a CITE Image Collection. CITE-URN <--> String." .
 <http://www.homermultitext.org/hmt/rdf/imageRightsProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "HMT-CITE Image Extension. Identifies a CITE Property name that holds rights data for an object in a CITE Image Collection. CITE-URN <--> String." .
-
