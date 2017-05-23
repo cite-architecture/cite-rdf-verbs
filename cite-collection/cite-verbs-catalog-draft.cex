@@ -1,9 +1,10 @@
 #!citecatalog
 
 # This documents the structure of version DRAFT
-# of the CITE verbs collection.
+# of the collection of verbs describing the relations of the
+# citable objects in the CITE model of digital scholary
+# editions (DSE).
 
-#
 
 collection#urn:cite2:cite:dseverbs.DRAFT:#Relations between citable objects#urn:cite2:cite:dseverbs.DRAFT.summary:#CC-attribution-share-alike
 
