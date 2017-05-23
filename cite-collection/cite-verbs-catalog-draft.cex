@@ -5,10 +5,10 @@
 
 #
 
-collection#urn:cite2:cite:verbs.DRAFT:#Relations between citable objects#urn:cite2:cite:verbs.DRAFT.summary:#CC-attribution-share-alike
+collection#urn:cite2:cite:dseverbs.DRAFT:#Relations between citable objects#urn:cite2:cite:dseverbs.DRAFT.summary:#CC-attribution-share-alike
 
-property#urn:cite2:cite:verbs.DRAFT.urn:#URN#Cite2Urn#
-property#urn:cite2:cite:verbs.DRAFT.summary:#Meaning#String#
-property#urn:cite2:cite:verbs.DRAFT.subject:#Subject type#Cite2Urn#cts,cite2,any
-property#urn:cite2:cite:verbs.DRAFT.object:#Object type#Cite2Urn#cts,cite2,any
-property#urn:cite2:cite:verbs.DRAFT.inverse:#Inverse verb#Cite2Urn#
+property#urn:cite2:cite:dseverbs.DRAFT.urn:#URN#Cite2Urn#
+property#urn:cite2:cite:dseverbs.DRAFT.summary:#Meaning#String#
+property#urn:cite2:cite:dseverbs.DRAFT.subject:#Subject type#Cite2Urn#cts,cite2,any
+property#urn:cite2:cite:dseverbs.DRAFT.object:#Object type#Cite2Urn#cts,cite2,any
+property#urn:cite2:cite:dseverbs.DRAFT.inverse:#Inverse verb#Cite2Urn#
