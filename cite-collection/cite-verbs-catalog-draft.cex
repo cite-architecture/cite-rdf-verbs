@@ -9,6 +9,6 @@ collection#urn:cite2:cite:verbs.DRAFT:#Relations between citable objects#urn:cit
 
 property#urn:cite2:cite:verbs.DRAFT.urn:#URN#Cite2Urn#
 property#urn:cite2:cite:verbs.DRAFT.summary:#Meaning#String#
-property#urn:cite2:cite:verbs.DRAFT.subject:#Subject type#Cite2Urn#cts,cite2
-property#urn:cite2:cite:verbs.DRAFT.object:#Object type#Cite2Urn#cts,cite2
+property#urn:cite2:cite:verbs.DRAFT.subject:#Subject type#Cite2Urn#cts,cite2,any
+property#urn:cite2:cite:verbs.DRAFT.object:#Object type#Cite2Urn#cts,cite2,any
 property#urn:cite2:cite:verbs.DRAFT.inverse:#Inverse verb#Cite2Urn#

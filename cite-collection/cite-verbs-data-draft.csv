@@ -1,0 +1,5 @@
+urn,summary,subject,object,inverse
+urn:cite2:cite:dseverbs.DRAFT:appearsOn,Relates text or object to a physical support,any,cite2,urn:cite2:cite:dseverbs.DRAFT:hasOnIt
+urn:cite2:cite:dseverbs.DRAFT:hasOnIt,Relates a physical support to a text or object,cite2,any,urn:cite2:cite:dseverbs.DRAFT:appearsOn
+urn:cite2:cite:dseverbs.DRAFT:illustratedBy,Relates text or object to a documentary image,any,cite2,urn:cite2:cite:dseverbs.DRAFT:illustrates
+urn:cite2:cite:dseverbs.DRAFT:illustrates,Relates a documentary image to a text or object,cite2,any,urn:cite2:cite:dseverbs.DRAFT:illustratedBy
